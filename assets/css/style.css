@@ -1,0 +1,95 @@
+/* Estilos Mi Proyecto */
+
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+body {
+     font-family: 'Shadows Into Light',
+          cursive;
+     font-weight: 300;
+     font-size: 1.3rem;
+}
+
+body * {
+     margin: 0;
+     border: 0;
+     padding: 0;
+}
+
+nav {
+     font-family: 'Helvetica Neue',
+          Helvetica,
+          Arial,
+          sans-serif;
+     font-weight: 300;
+     font-size: 15px;
+
+}
+
+/* IP palabra como logo es un texto  */
+h1 span {
+
+     font-weight: 200;
+     /*  font-size: 15px; */
+}
+
+
+header {
+     /*imagen como fondo*/
+     background-image: url('../img/bg_hero.png');
+     height: 500px;
+     /*
+     La imagen de fondo no se repite. La imagen solo se mostrará una vez
+     */
+     background-repeat: no-repeat;
+     /* Cambia el tamaño de la imagen de fondo para cubrir el elemento que la contiene*/
+     background-size: cover;
+     background-position: center;
+}
+
+#inicio {
+     position: relative;
+}
+
+.texto-hero {
+     position: absolute;
+     left: 47%;
+     top: 55%;
+}
+
+.bg-brown,
+footer {
+     background-color: #A52A2A;
+}
+
+.nav-link,
+.fab {
+     color: #ffffff;
+}
+
+/* 
+
+#logo-ip {
+     color: #ffffff;
+}
+
+
+.nav-link,
+.fab {
+     color: #ffffff;
+}
+
+.bg-brown,
+footer {
+     background-color: #A52A2A;
+}
+
+#font-white1,
+#font-white2,
+#font-white3,
+#font-white4 {
+     color: #ffffff;
+} */
