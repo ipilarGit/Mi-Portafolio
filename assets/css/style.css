@@ -1,7 +1,7 @@
 /* Estilos Mi Proyecto */
 
 /* Google Fonts*/
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap');*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
@@ -28,7 +28,6 @@ nav {
 
 }
 
-
 header {
      /*imagen como fondo*/
      background-image: url('../img/bg_hero.png');
@@ -49,7 +48,7 @@ header {
 .texto-hero {
      position: absolute;
      left: 47%;
-     top: 55%;
+     top: 75%;
 }
 
 .bg-brown,
@@ -57,7 +56,19 @@ footer {
      background-color: #A52A2A;
 }
 
-.nav-link,
-.fab {
+
+footer .fab {
      color: #ffffff;
+}
+
+hr .solid {
+     border-top: 3px solid #bbbbbb !important;
+}
+
+#icono {
+     width: 40px;
+}
+
+h2 .span {
+     font-size: 10px;
 }
