@@ -1,16 +1,17 @@
 /* Estilos Mi Proyecto */
 
 /* Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap');*/
 
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&family=Roboto:wght@300;400&display=swap');
 
 body {
-     font-family: 'Shadows Into Light',
-          cursive;
+     font-family: 'Open Sans',
+          sans-serif;
      font-weight: 300;
-     font-size: 1.3rem;
+     font-size: 1.0rem;
 }
 
 body * {
@@ -20,20 +21,11 @@ body * {
 }
 
 nav {
-     font-family: 'Helvetica Neue',
-          Helvetica,
-          Arial,
+     font-family: 'Roboto',
           sans-serif;
      font-weight: 300;
      font-size: 15px;
 
-}
-
-/* IP palabra como logo es un texto  */
-h1 span {
-
-     font-weight: 200;
-     /*  font-size: 15px; */
 }
 
 
@@ -69,27 +61,3 @@ footer {
 .fab {
      color: #ffffff;
 }
-
-/* 
-
-#logo-ip {
-     color: #ffffff;
-}
-
-
-.nav-link,
-.fab {
-     color: #ffffff;
-}
-
-.bg-brown,
-footer {
-     background-color: #A52A2A;
-}
-
-#font-white1,
-#font-white2,
-#font-white3,
-#font-white4 {
-     color: #ffffff;
-} */
