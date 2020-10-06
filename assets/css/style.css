@@ -59,6 +59,7 @@ footer {
 
 footer .fab {
      color: #ffffff;
+     text-decoration: none;
 }
 
 hr .solid {
@@ -70,5 +71,5 @@ hr .solid {
 }
 
 h2 .span {
-     font-size: 10px;
+     font-size: 10px !important;
 }
